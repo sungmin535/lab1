@@ -57,7 +57,7 @@
           <string>A</string>
         </entry>
       </elementAttributes>
-      <pos x="120" y="-40"/>
+      <pos x="-300" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>VDD</elementName>
@@ -142,7 +142,7 @@ S is strobe.  When strobe is high the output is always low,
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="300" y="-60"/>
+      <pos x="-240" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -157,12 +157,36 @@ S is strobe.  When strobe is high the output is always low,
   </visualElements>
   <wires>
     <wire>
+      <p1 x="-300" y="260"/>
+      <p2 x="-40" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="-240" y="280"/>
+      <p2 x="0" y="280"/>
+    </wire>
+    <wire>
       <p1 x="160" y="220"/>
       <p2 x="200" y="220"/>
     </wire>
     <wire>
+      <p1 x="-300" y="140"/>
+      <p2 x="-240" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="-300" y="300"/>
+      <p2 x="40" y="300"/>
+    </wire>
+    <wire>
       <p1 x="160" y="200"/>
       <p2 x="160" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="0" y="200"/>
+      <p2 x="0" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="200"/>
+      <p2 x="-40" y="260"/>
     </wire>
     <wire>
       <p1 x="200" y="200"/>
@@ -173,8 +197,28 @@ S is strobe.  When strobe is high the output is always low,
       <p2 x="200" y="260"/>
     </wire>
     <wire>
+      <p1 x="40" y="200"/>
+      <p2 x="40" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="-300" y="120"/>
+      <p2 x="-300" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="-300" y="140"/>
+      <p2 x="-300" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="-300" y="260"/>
+      <p2 x="-300" y="300"/>
+    </wire>
+    <wire>
       <p1 x="-80" y="20"/>
       <p2 x="-80" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="-240" y="180"/>
+      <p2 x="-240" y="280"/>
     </wire>
   </wires>
   <measurementOrdering/>

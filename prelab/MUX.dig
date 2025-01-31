@@ -15,35 +15,7 @@
           <string>D</string>
         </entry>
       </elementAttributes>
-      <pos x="240" y="-20"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>C</string>
-        </entry>
-      </elementAttributes>
-      <pos x="200" y="-20"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>B</string>
-        </entry>
-      </elementAttributes>
-      <pos x="160" y="-20"/>
+      <pos x="380" y="60"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -57,7 +29,7 @@
           <string>A</string>
         </entry>
       </elementAttributes>
-      <pos x="120" y="-20"/>
+      <pos x="320" y="60"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -102,11 +74,6 @@
       <pos x="340" y="120"/>
     </visualElement>
     <visualElement>
-      <elementName>Not</elementName>
-      <elementAttributes/>
-      <pos x="60" y="280"/>
-    </visualElement>
-    <visualElement>
       <elementName>VDD</elementName>
       <elementAttributes>
         <entry>
@@ -114,7 +81,7 @@
           <string>&apos;1&apos;</string>
         </entry>
       </elementAttributes>
-      <pos x="-20" y="180"/>
+      <pos x="200" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -124,7 +91,7 @@
           <string>&apos;0&apos;</string>
         </entry>
       </elementAttributes>
-      <pos x="-20" y="360"/>
+      <pos x="180" y="360"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -140,24 +107,6 @@ D as the least-significant bit.</string>
         </entry>
       </elementAttributes>
       <pos x="60" y="-140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Rectangle</elementName>
-      <elementAttributes>
-        <entry>
-          <string>RectHeight</string>
-          <int>4</int>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>Converts between single bits &amp; a 3-bit bus</string>
-        </entry>
-        <entry>
-          <string>RectWidth</string>
-          <int>4</int>
-        </entry>
-      </elementAttributes>
-      <pos x="280" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>Testcase</elementName>
@@ -176,8 +125,104 @@ D as the least-significant bit.</string>
   </visualElements>
   <wires>
     <wire>
+      <p1 x="220" y="160"/>
+      <p2 x="320" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="240"/>
+      <p2 x="320" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="240"/>
+      <p2 x="480" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="180"/>
+      <p2 x="320" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="260"/>
+      <p2 x="320" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="200"/>
+      <p2 x="320" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="280"/>
+      <p2 x="320" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="120"/>
+      <p2 x="380" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="120"/>
+      <p2 x="300" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="140"/>
+      <p2 x="220" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="220"/>
+      <p2 x="320" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="300"/>
+      <p2 x="320" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="60"/>
+      <p2 x="320" y="120"/>
+    </wire>
+    <wire>
       <p1 x="340" y="140"/>
       <p2 x="340" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="120"/>
+      <p2 x="180" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="280"/>
+      <p2 x="180" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="220"/>
+      <p2 x="180" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="260"/>
+      <p2 x="180" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="140"/>
+      <p2 x="180" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="300"/>
+      <p2 x="180" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="240"/>
+      <p2 x="180" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="160"/>
+      <p2 x="200" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="180"/>
+      <p2 x="200" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="220" y="140"/>
+      <p2 x="220" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="60"/>
+      <p2 x="380" y="120"/>
     </wire>
   </wires>
   <measurementOrdering/>
