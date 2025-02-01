@@ -90,33 +90,33 @@ begin
 	test_process : process 
 	begin
 	-- Place test cases here. The first two have been written for you
-        w_sw <= x"0"; wait for 10 ns; 
-            assert (w_Y = '0') report "error on x0" severity failure;
-        w_sw <= x"1"; wait for 10 ns;
-            assert (w_Y = '1') report "error on Jan (x1)" severity failure;
-        w_sw <= x"2"; wait for 10 ns; 
-            assert (w_Y = '0') report "error on Feb (x2)" severity failure;
-        w_sw <= x"3"; wait for 10 ns; 
-            assert (w_Y = '1') report "error on Mar (x3)" severity failure;
-        w_sw <= x"4"; wait for 10 ns; 
-            assert (w_Y = '0') report "error on Apr (x4)" severity failure;
-        w_sw <= x"5"; wait for 10 ns; 
-            assert (w_Y = '1') report "error on May (x5)" severity failure;
-        w_sw <= x"6"; wait for 10 ns; 
-            assert (w_Y = '0') report "error on Jun (x6)" severity failure;
-        w_sw <= x"7"; wait for 10 ns; 
-            assert (w_Y = '1') report "error on Jul (x7)" severity failure;
-        w_sw <= x"8"; wait for 10 ns; 
-            assert (w_Y = '1') report "error on Aug (x8)" severity failure;
-        w_sw <= x"9"; wait for 10 ns; 
-            assert (w_Y = '0') report "error on Sep (x9)" severity failure;
-        w_sw <= x"A"; wait for 10 ns; 
-            assert (w_Y = '1') report "error on Oct (xA)" severity failure;
-        w_sw <= x"B"; wait for 10 ns; 
-            assert (w_Y = '0') report "error on Nov (xB)" severity failure;
-        w_sw <= x"C"; wait for 10 ns; 
-            assert (w_Y = '1') report "error on Dec (xC)" severity failure;
-
+        w_sw <= x"0";  wait for 10 ns;
+            assert (w_Y = '0') report "Error on x0" severity failure;
+        w_sw <= x"1";  wait for 10 ns;
+            assert (w_Y = '1') report "Error on Jan (x1)" severity failure;
+        w_sw <= x"2";  wait for 10 ns;
+            assert (w_Y = '0') report "Error on Feb (x2)" severity failure;
+        w_sw <= x"3";  wait for 10 ns;
+            assert (w_Y = '1') report "Error on Mar (x3)" severity failure;
+        w_sw <= x"4";  wait for 10 ns;
+            assert (w_Y = '0') report "Error on Apr (x4)" severity failure;
+        w_sw <= x"5";  wait for 10 ns;
+            assert (w_Y = '1') report "Error on May (x5)" severity failure;
+        w_sw <= x"6";  wait for 10 ns;
+            assert (w_Y = '0') report "Error on Jun (x6)" severity failure;
+        w_sw <= x"7";  wait for 10 ns;
+            assert (w_Y = '1') report "Error on Jul (x7)" severity failure;
+        w_sw <= x"8";  wait for 10 ns;
+            assert (w_Y = '1') report "Error on Aug (x8)" severity failure;
+        w_sw <= x"9";  wait for 10 ns;
+            assert (w_Y = '0') report "Error on Sep (x9)" severity failure;
+        w_sw <= x"A";  wait for 10 ns;
+            assert (w_Y = '1') report "Error on Oct (xA)" severity failure;
+        w_sw <= x"B";  wait for 10 ns;
+            assert (w_Y = '0') report "Error on Nov (xB)" severity failure;
+        w_sw <= x"C";  wait for 10 ns;
+            assert (w_Y = '1') report "Error on Dec (xC)" severity failure;
+        
 		wait; -- wait forever
 	end process;	
 	-----------------------------------------------------	
