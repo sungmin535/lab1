@@ -76,12 +76,12 @@ begin
 	
 	--enter your logic here to implement the mux.  See VHDL reference sheet for MUX syntax.	
     o_Y <= '1' when (w_sel = "0001") or  -- January (1)
-                (w_sel = "0011") or  -- March   (3)
-                (w_sel = "0101") or  -- May     (5)
-                (w_sel = "0111") or  -- July    (7)
-                (w_sel = "1000") or  -- August  (8)
-                (w_sel = "1010") or  -- October (10)
-                (w_sel = "1100")      -- December(12)
+                (w_sel = "0011") or  -- March (3)
+                (w_sel = "0101") or  -- May (5)
+                (w_sel = "0111") or  -- July (7)
+                (w_sel = "1000") or  -- August (8)
+                (w_sel = "1010") or  -- October(10)
+                (w_sel = "1100")     -- December(12)
            else '0';
          
 	---------------------------------------------------------------	
