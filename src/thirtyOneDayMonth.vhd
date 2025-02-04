@@ -83,7 +83,7 @@ begin
 
      with w_addr select
         o_Y <= 
-            'X' when "0000",  
+            '0' when "0000",  
             '1' when "0001", 
             '0' when "0010", 
             '1' when "0011",  
